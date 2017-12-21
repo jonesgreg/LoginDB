@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gregoryjones.logindb.MainActivity">
+    <item
+        android:id="@+id/action_Settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Login"
+        android:orderInCategory="100"
+        android:title="Login" />
+
+    <item
+        android:id="@+id/action_Register"
+        android:orderInCategory="100"
+        android:title="Register"
+        app:showAsAction="never" />
+
+
+
+</menu>
